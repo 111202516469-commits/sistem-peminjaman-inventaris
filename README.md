@@ -52,27 +52,7 @@ Fitur utama yang direncanakan dalam Sistem Peminjaman Inventaris adalah:
 6. **Data Pengguna:** mengelola informasi pengguna yang terdaftar.
 7. **Laporan:** menampilkan ringkasan dan riwayat transaksi peminjaman serta pengembalian.
 
-## 4. Wireframe Halaman Aplikasi
-
-Wireframe merupakan rancangan awal tata letak halaman aplikasi sebelum dibuat menjadi tampilan yang sebenarnya.
-
-Empat rancangan utama yang harus tersedia untuk memenuhi kriteria Milestone 1 adalah:
-
-### A. Wireframe Login
-Menampilkan nama aplikasi, kolom username, kolom password, dan tombol Login.
-
-### B. Wireframe Dashboard
-Menampilkan menu navigasi dan ringkasan informasi seperti jumlah barang, barang tersedia, peminjaman aktif, serta pengembalian.
-
-### C. Wireframe Daftar Data
-Menampilkan tabel data inventaris yang berisi kode barang, nama barang, kategori, jumlah, kondisi, dan tombol tindakan. Halaman ini juga menyediakan tombol Tambah Barang dan fitur pencarian.
-
-### D. Wireframe Form
-Menampilkan kolom input kode barang, nama barang, kategori, jumlah, dan kondisi, disertai tombol Simpan dan Batal.
-
-Gambar wireframe disimpan di folder `docs/` dengan nama file `wireframe.png`.
-
-## 5. Repository Git, Struktur Folder, README, dan Commit
+## 4. Repository Git, Struktur Folder, README, dan Commit
 
 ### A. Struktur Folder Proyek
 
@@ -96,19 +76,3 @@ sistem-peminjaman-inventaris/
     ├── pengguna.html
     └── laporan.html
 ```
-
-### B. Fungsi README.md
-
-File `README.md` berisi nama dan deskripsi proyek, identifikasi masalah, manfaat aplikasi, target pengguna, kebutuhan pengguna, daftar fitur utama, rancangan wireframe, dan struktur folder proyek.
-
-### C. Rencana Minimal Tiga Commit Bermakna
-
-1. `Menambahkan dokumentasi awal proyek` — berisi README dan dokumen identifikasi masalah, pengguna, serta fitur.
-2. `Menyiapkan struktur folder aplikasi` — berisi struktur folder dan file awal proyek.
-3. `Menambahkan wireframe halaman inti` — berisi gambar rancangan login, dashboard, daftar data, dan form.
-
-Setiap commit harus benar-benar mencatat perubahan yang sesuai dengan pesannya, bukan hanya membuat tiga commit tanpa perubahan bermakna.
-
-### D. Kesimpulan
-
-Sistem Peminjaman Inventaris dirancang untuk membantu pencatatan dan pemantauan barang secara lebih teratur. Pada Milestone 1, fokus pekerjaan adalah mengidentifikasi masalah, menentukan manfaat dan kebutuhan pengguna, merancang fitur utama, membuat wireframe, serta menyiapkan repository GitHub dan dokumentasi awal. Implementasi fitur dapat dilanjutkan pada milestone berikutnya sesuai instruksi dosen.
