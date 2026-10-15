@@ -1,4 +1,3 @@
-# MILESTONE 1
 # SISTEM PEMINJAMAN INVENTARIS
 
 ## 1. Identifikasi Masalah dan Manfaat Aplikasi
