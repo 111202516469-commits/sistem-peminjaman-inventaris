@@ -18,16 +18,9 @@ if (loginForm) {
                 "Username dan password wajib diisi.";
             return;
         }
-
-        // Login statis untuk demonstrasi Milestone 2.
-        // Belum menggunakan autentikasi server.
         window.location.href = "dashboard.html";
     });
 }
-
-/* ==============================
-   TANGGAL DAN WAKTU DASHBOARD
-   ============================== */
 
 function perbaruiTanggalWaktu() {
     const tanggal = document.getElementById("tanggalSekarang");
@@ -57,11 +50,6 @@ function perbaruiTanggalWaktu() {
 perbaruiTanggalWaktu();
 setInterval(perbaruiTanggalWaktu, 1000);
 
-
-/* ==============================
-   MENU SIDEBAR UNTUK HP
-   ============================== */
-
 const menuToggle = document.getElementById("menuToggle");
 const sidebar = document.getElementById("sidebar");
 
@@ -70,4 +58,3 @@ if (menuToggle && sidebar) {
         sidebar.classList.toggle("show");
     });
 }
-
