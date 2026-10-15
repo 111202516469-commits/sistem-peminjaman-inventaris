@@ -59,8 +59,7 @@ Fitur utama yang direncanakan dalam Sistem Peminjaman Inventaris adalah:
 ```text
 sistem-peminjaman-inventaris/
 ├── README.md
-├── docs/
-│   └── wireframe.png
+│   
 ├── assets/
 │   ├── css/
 │   │   └── style.css
